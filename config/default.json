@@ -1,24 +1,11 @@
 {
-    "db":
-    {
+    "db": {
         "host": "localhost",
         "port": "27017",
-        "name" : "test"
-    },
-
-    "auth": {
-        "enabled": true,
-        "algorithms": ["HS256"],
-        "secretWord": "IMANIMAN",
-        "driver": "jwt"
+        "name": "test"
     },
 
     "server": {
         "port": 3000
-    },
-
-    "view": {
-        "engine": "handlebars",
-        "layouts": true
     }
 }
