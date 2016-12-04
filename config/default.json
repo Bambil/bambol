@@ -2,10 +2,11 @@
     "db": {
         "host": "localhost",
         "port": "27017",
-        "name": "test"
+        "name": "mqtt",
+        "collection": "ascoltatore"
     },
 
     "server": {
-        "port": 3000
+        "port": 1883
     }
 }
