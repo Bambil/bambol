@@ -20,14 +20,15 @@ never discourage you :)
 * For *Modularity*:  
 Nodejs is inherently extremely modular, and to make our application more 
 modular, we intend to use **docker** containers for different services of our
-application. For example in our current architecture this middleware is 
-supposed to include three parts:
-* Message Passing Container
-* WebUI Container
-* Automation Engine Container
+application.  
+For example in our current architecture this middleware is supposed 
+to include three parts:
+    * Message Passing Container
+    * WebUI Container
+    * Automation Engine Container
 
-From the benefits of this architecture we can point out following reasons:
+From the benefits of this architecture we can point out following reasons:  
 1. This makes balance loading easier. (By creating multiple instance of a certain
 docker image.  
-2. Easier development.
+2. Easier development.  
 3. Greater maintainability
