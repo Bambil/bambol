@@ -6,6 +6,13 @@
         "collection": "ascoltatore"
     },
 
+    "timeSeries" : {
+        "type": "influxdb",
+        "name": "imiddleware",
+        "port": "8086",
+        "host": "localhost"
+    },
+
     "server": {
         "port": 1883
     }
