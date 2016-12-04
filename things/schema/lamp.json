@@ -1,0 +1,9 @@
+{
+    "name": "lamp",
+    "parent": "thing",
+    "settings": [
+        "status": {
+            "type": "boolean",
+        }
+    ]
+}
