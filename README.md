@@ -1,4 +1,4 @@
-# i**Middle**ware
+# Bambol
 ## Introduction  
 This is an IoT middleware created with three goals in mind:
 
